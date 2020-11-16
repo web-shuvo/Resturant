@@ -1,0 +1,368 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/*========== Navber Part CSS ==========*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999999; 
+}
+
+.navbar .nav-item {
+    padding: 0 14px;
+    color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Gentium Book Basic', serif; 
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: -35px;
+    left: 0;
+    background: #fff;
+    opacity: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before {
+    opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link.active:before {
+	opacity: 1;
+}
+
+
+.nav-link i {
+	font-size: 21px;
+	color: #dab33e;
+	padding: 0 5px;
+}
+
+.extra-bg {
+    background: purple;
+}
+
+/*========== Banner Part CSS ==========*/
+
+#banner {
+    background: url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 215px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
+#banner banner-text {
+    
+}
+
+.banner-text h2 {
+    font-size: 90px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+}
+
+.banner-btn {
+    margin-top: 120px;
+}
+
+.banner-btn a {
+    font-size: 18px;
+    color: #fff;
+    padding: 13px 54px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.banner-btn a:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*========== Feature Part CSS ==========*/
+
+#feature {
+    background: url(../images/BG-Images.png);
+    background-size: cover;background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 58px;
+    padding-bottom: 37px;
+}
+
+.f-text {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.f-text h3 {
+    font-size: 36px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive; 
+}
+
+.f-text p {
+    font-size: 16px;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 0 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/*========== Gellary Part CSS ==========*/
+
+#gellary {
+    background: url(../images/Gallery-BG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gal-part {
+    background: rgba(0, 0, 0, 0.67);
+    padding-top: 73px;
+}
+
+.gal-text h3 {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+}
+
+.gal-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 17px;
+    padding: 0 50px;
+}
+
+.gal-item img {
+    margin: 0 10px;
+}
+
+.gal-item {
+    padding-top: 43px;
+    padding-bottom: 72px;
+}
+/*========== Catalog Part CSS ==========*/
+
+#catalog {
+    background: url(../images/Catalog-BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 96px;
+    padding-bottom: 78px;
+}
+
+.item-h h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+}
+
+.item-t {
+    border-bottom: 1px solid #c89f2d;
+    margin-top: 20px;
+}
+
+.item-t h4 {
+    font-size: 18px;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;
+}
+
+.item-b {
+    margin-top: 5px;
+}
+
+.item-b p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+}
+
+/*========== Feedback Part CSS ==========*/
+
+#feedback {
+    background: url(../images/Feedback-Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.f-main {
+    background: url(../images/F-item-Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 82px;
+    padding-bottom: 103px;
+}
+
+.f-item h3 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+}
+
+.f-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #dde0df;
+    font-family: 'Gentium Book Basic', serif;
+    padding: 0 60px;
+}
+
+.f-item p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.slick-slide img {
+    display: inline-block;
+}
+
+/*========== Book Part CSS ==========*/
+
+#book {
+    background: url(../images/BG-Images.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.book-t h3 {
+    font-size: 36px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+}
+
+.book-t p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    padding: 0 14px;
+}
+
+.form-group label {
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #7c7c7c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    padding: 4px 60px;
+    background: #c9a131;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/*========== Footer Part CSS ==========*/
+
+#footer {
+    background: #191919;
+    padding-top: 56px;
+    padding-bottom: 48px;
+}
+
+#footer h3 {
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+}
+
+#footer p {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ff-p p {
+    padding: 0 66px;
+}
+
+.f-icon i {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 2px;
+}
+
+.f-icon {
+    margin-top: 43px;
+}
+
+.b2t {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    text-align: center;
+}
+
+.b2t i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: purple;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+
